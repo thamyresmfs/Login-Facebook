@@ -1,0 +1,101 @@
+#leo{
+	color: blue;
+	padding-left: 0px;
+	padding-top: 150px;
+	font-size: 30px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	animation: face 5s 1s;
+}
+
+p {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 30px;
+}
+
+#ofacebook {
+	padding-left: 120px;
+	width: 600px;
+	height: 200px;
+	
+}
+@keyframes face{
+	10%{
+		color: blue;
+		transform:rotate(0);
+	}
+	20%{
+		color: rgb(82, 82, 209);
+		transform:rotate(10deg);
+	}
+	30%{
+		color: rgb(9, 9, 128);
+		transform:rotate(0);
+	}
+	40%{
+		color: rgb(136, 136, 218);
+		transform:rotate(-10deg);
+	}
+	50%{
+		color: rgb(24, 24, 78);
+		transform:rotate(0);
+	}
+	60%{
+		color: rgb(128, 128, 223);
+		transform:rotate(10deg);
+	}
+	70%{
+		color: blue;
+		transform:rotate(0);
+	}
+	80%{
+		color: rgb(57, 57, 119);
+		transform:rotate(-10deg);
+	}
+	90%{
+		color: rgb(3, 3, 83);
+		transform:rotate(0);
+	}
+	100%{
+		color: blue;
+		transform:rotate(360deg);
+	}
+}
+
+#name {
+	border-radius: 5px;
+	height: 50px;
+	width: 350px;
+
+}
+.tudo {
+	display: flex;
+	flex-direction: row;
+}
+
+ #formulario {
+	padding-top: 130px;
+	padding-left: 50px;
+}
+#eqs {
+	color: blue;
+	padding-left: 110px;
+	text-decoration: none;
+}
+#linha {
+	color: black;
+	padding-left: 9px;
+	font-size: 15px;
+} 
+#cnc {
+	border-radius: 7px;
+	height: 50px;
+	width: 200px;
+	position: absolute;
+	top: 435px;
+	right: 275px;
+}
+#text {
+	color: black;
+	padding-left: 9px;
+	font-size: 13px;
+} 
